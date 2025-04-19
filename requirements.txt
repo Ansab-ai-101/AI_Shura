@@ -1,10 +1,7 @@
-streamlit
-pandas
-ollama
-duckduckgo-search
-lancedb
-pyarrow
-numpy
-requests
-crawl4ai[playwright]
+streamlit>=1.25.0
+ollama>=0.1.5       # Or check latest
+duckduckgo-search>=4.0.0
+requests>=2.25.0
+crawl4ai[playwright]>=0.4.0 # Requires playwright install --with-deps
+pandas>=1.5.0       # Optional but often useful
 playwright install --with-deps
