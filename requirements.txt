@@ -1,0 +1,10 @@
+streamlit
+pandas
+ollama
+duckduckgo-search
+lancedb
+pyarrow
+numpy
+requests
+crawl4ai[playwright]
+playwright install --with-deps
